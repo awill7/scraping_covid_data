@@ -11,6 +11,7 @@ BOT_NAME = 'trending'
 
 SPIDER_MODULES = ['trending.spiders']
 NEWSPIDER_MODULE = 'trending.spiders'
+LOG_ENABLED = False
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
